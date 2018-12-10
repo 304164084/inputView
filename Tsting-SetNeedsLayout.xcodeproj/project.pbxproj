@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F54D2CB4A5EDD532F64C9AF /* libPods-Tsting-SetNeedsLayoutTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F556038CEAB1C63CDF3DC3D /* libPods-Tsting-SetNeedsLayoutTests.a */; };
+		BC2CACCF25DC6F5D588A0B9B /* libPods-Tsting-SetNeedsLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D14260C2C3B83ACBE79024A3 /* libPods-Tsting-SetNeedsLayout.a */; };
+		C1037E6121B9127A001F8BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037E6021B9127A001F8BFF /* AppDelegate.m */; };
+		C1037E6421B9127A001F8BFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037E6321B9127A001F8BFF /* ViewController.m */; };
+		C1037E6721B9127A001F8BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1037E6521B9127A001F8BFF /* Main.storyboard */; };
+		C1037E6921B9127C001F8BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1037E6821B9127C001F8BFF /* Assets.xcassets */; };
+		C1037E6C21B9127C001F8BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1037E6A21B9127C001F8BFF /* LaunchScreen.storyboard */; };
+		C1037E6F21B9127C001F8BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037E6E21B9127C001F8BFF /* main.m */; };
+		C1037E7921B9127C001F8BFF /* Tsting_SetNeedsLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037E7821B9127C001F8BFF /* Tsting_SetNeedsLayoutTests.m */; };
+		C1037E8421B9127C001F8BFF /* Tsting_SetNeedsLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037E8321B9127C001F8BFF /* Tsting_SetNeedsLayoutUITests.m */; };
+		C1037E9321B912AB001F8BFF /* TstingCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037E9221B912AB001F8BFF /* TstingCustomView.m */; };
+		C1037EAF21B91621001F8BFF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037E9621B91621001F8BFF /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C1037EB021B91621001F8BFF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037E9F21B91621001F8BFF /* ViewController+MASAdditions.m */; };
+		C1037EB121B91621001F8BFF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037EA321B91621001F8BFF /* MASCompositeConstraint.m */; };
+		C1037EB221B91621001F8BFF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037EA421B91621001F8BFF /* MASConstraintMaker.m */; };
+		C1037EB321B91621001F8BFF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037EA521B91621001F8BFF /* MASLayoutConstraint.m */; };
+		C1037EB421B91621001F8BFF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037EA621B91621001F8BFF /* NSArray+MASAdditions.m */; };
+		C1037EB521B91621001F8BFF /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037EA721B91621001F8BFF /* View+MASAdditions.m */; };
+		C1037EB621B91621001F8BFF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037EAA21B91621001F8BFF /* MASConstraint.m */; };
+		C1037EB721B91621001F8BFF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037EAC21B91621001F8BFF /* MASViewConstraint.m */; };
+		C1037EB821B91621001F8BFF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C1037EAD21B91621001F8BFF /* MASViewAttribute.m */; };
+		C12CC90D21BE0704005DF34D /* UIColor+MarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C12CC90B21BE0703005DF34D /* UIColor+MarKit.m */; };
+		D0C9D5E82D25383943552856 /* libPods-Tsting-SetNeedsLayoutUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 094D57D2839016E132089136 /* libPods-Tsting-SetNeedsLayoutUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1037E7521B9127C001F8BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1037E5421B9127A001F8BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1037E5B21B9127A001F8BFF;
+			remoteInfo = "Tsting-SetNeedsLayout";
+		};
+		C1037E8021B9127C001F8BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1037E5421B9127A001F8BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1037E5B21B9127A001F8BFF;
+			remoteInfo = "Tsting-SetNeedsLayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094D57D2839016E132089136 /* libPods-Tsting-SetNeedsLayoutUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tsting-SetNeedsLayoutUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E5613573C6BA42EB6CBF70 /* Pods-Tsting-SetNeedsLayoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-SetNeedsLayoutUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tsting-SetNeedsLayoutUITests/Pods-Tsting-SetNeedsLayoutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72CD5EA62B1EB4C7F3C6B789 /* Pods-Tsting-SetNeedsLayoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-SetNeedsLayoutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tsting-SetNeedsLayoutTests/Pods-Tsting-SetNeedsLayoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		949D5B4C017630A06CBEF80C /* Pods-Tsting-SetNeedsLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-SetNeedsLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tsting-SetNeedsLayout/Pods-Tsting-SetNeedsLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		9F556038CEAB1C63CDF3DC3D /* libPods-Tsting-SetNeedsLayoutTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tsting-SetNeedsLayoutTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EFD713F48444603C5E6FB8 /* Pods-Tsting-SetNeedsLayoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-SetNeedsLayoutUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tsting-SetNeedsLayoutUITests/Pods-Tsting-SetNeedsLayoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1037E5C21B9127A001F8BFF /* Tsting-SetNeedsLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tsting-SetNeedsLayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1037E5F21B9127A001F8BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1037E6021B9127A001F8BFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1037E6221B9127A001F8BFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1037E6321B9127A001F8BFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1037E6621B9127A001F8BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1037E6821B9127C001F8BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1037E6B21B9127C001F8BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1037E6D21B9127C001F8BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1037E6E21B9127C001F8BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1037E7421B9127C001F8BFF /* Tsting-SetNeedsLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tsting-SetNeedsLayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1037E7821B9127C001F8BFF /* Tsting_SetNeedsLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tsting_SetNeedsLayoutTests.m; sourceTree = "<group>"; };
+		C1037E7A21B9127C001F8BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1037E7F21B9127C001F8BFF /* Tsting-SetNeedsLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tsting-SetNeedsLayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1037E8321B9127C001F8BFF /* Tsting_SetNeedsLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tsting_SetNeedsLayoutUITests.m; sourceTree = "<group>"; };
+		C1037E8521B9127C001F8BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1037E9121B912AB001F8BFF /* TstingCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TstingCustomView.h; sourceTree = "<group>"; };
+		C1037E9221B912AB001F8BFF /* TstingCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TstingCustomView.m; sourceTree = "<group>"; };
+		C1037E9521B91621001F8BFF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		C1037E9621B91621001F8BFF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		C1037E9721B91621001F8BFF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		C1037E9821B91621001F8BFF /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C1037E9921B91621001F8BFF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C1037E9A21B91621001F8BFF /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		C1037E9B21B91621001F8BFF /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		C1037E9C21B91621001F8BFF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		C1037E9D21B91621001F8BFF /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		C1037E9E21B91621001F8BFF /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		C1037E9F21B91621001F8BFF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		C1037EA021B91621001F8BFF /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		C1037EA121B91621001F8BFF /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		C1037EA221B91621001F8BFF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		C1037EA321B91621001F8BFF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		C1037EA421B91621001F8BFF /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		C1037EA521B91621001F8BFF /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		C1037EA621B91621001F8BFF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C1037EA721B91621001F8BFF /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		C1037EA821B91621001F8BFF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C1037EA921B91621001F8BFF /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		C1037EAA21B91621001F8BFF /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		C1037EAB21B91621001F8BFF /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		C1037EAC21B91621001F8BFF /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		C1037EAD21B91621001F8BFF /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		C12CC90B21BE0703005DF34D /* UIColor+MarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MarKit.m"; sourceTree = "<group>"; };
+		C12CC90C21BE0704005DF34D /* UIColor+MarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MarKit.h"; sourceTree = "<group>"; };
+		C7F12EEF2589DC907E7E001F /* Pods-Tsting-SetNeedsLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-SetNeedsLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tsting-SetNeedsLayout/Pods-Tsting-SetNeedsLayout.release.xcconfig"; sourceTree = "<group>"; };
+		D14260C2C3B83ACBE79024A3 /* libPods-Tsting-SetNeedsLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tsting-SetNeedsLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0762208716A947FDB36DA4C /* Pods-Tsting-SetNeedsLayoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-SetNeedsLayoutTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tsting-SetNeedsLayoutTests/Pods-Tsting-SetNeedsLayoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1037E5921B9127A001F8BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2CACCF25DC6F5D588A0B9B /* libPods-Tsting-SetNeedsLayout.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1037E7121B9127C001F8BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F54D2CB4A5EDD532F64C9AF /* libPods-Tsting-SetNeedsLayoutTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1037E7C21B9127C001F8BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C9D5E82D25383943552856 /* libPods-Tsting-SetNeedsLayoutUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F5A95AA6CD0F132036DF3ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				949D5B4C017630A06CBEF80C /* Pods-Tsting-SetNeedsLayout.debug.xcconfig */,
+				C7F12EEF2589DC907E7E001F /* Pods-Tsting-SetNeedsLayout.release.xcconfig */,
+				E0762208716A947FDB36DA4C /* Pods-Tsting-SetNeedsLayoutTests.debug.xcconfig */,
+				72CD5EA62B1EB4C7F3C6B789 /* Pods-Tsting-SetNeedsLayoutTests.release.xcconfig */,
+				B0EFD713F48444603C5E6FB8 /* Pods-Tsting-SetNeedsLayoutUITests.debug.xcconfig */,
+				52E5613573C6BA42EB6CBF70 /* Pods-Tsting-SetNeedsLayoutUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1037E5321B9127A001F8BFF = {
+			isa = PBXGroup;
+			children = (
+				C1037E5E21B9127A001F8BFF /* Tsting-SetNeedsLayout */,
+				C1037E7721B9127C001F8BFF /* Tsting-SetNeedsLayoutTests */,
+				C1037E8221B9127C001F8BFF /* Tsting-SetNeedsLayoutUITests */,
+				C1037E5D21B9127A001F8BFF /* Products */,
+				6F5A95AA6CD0F132036DF3ED /* Pods */,
+				D03A583E06A5D39AB1EC501D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1037E5D21B9127A001F8BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1037E5C21B9127A001F8BFF /* Tsting-SetNeedsLayout.app */,
+				C1037E7421B9127C001F8BFF /* Tsting-SetNeedsLayoutTests.xctest */,
+				C1037E7F21B9127C001F8BFF /* Tsting-SetNeedsLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1037E5E21B9127A001F8BFF /* Tsting-SetNeedsLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C12CC90C21BE0704005DF34D /* UIColor+MarKit.h */,
+				C12CC90B21BE0703005DF34D /* UIColor+MarKit.m */,
+				C1037E9421B91621001F8BFF /* Masonry */,
+				C1037E5F21B9127A001F8BFF /* AppDelegate.h */,
+				C1037E6021B9127A001F8BFF /* AppDelegate.m */,
+				C1037E6221B9127A001F8BFF /* ViewController.h */,
+				C1037E6321B9127A001F8BFF /* ViewController.m */,
+				C1037E9121B912AB001F8BFF /* TstingCustomView.h */,
+				C1037E9221B912AB001F8BFF /* TstingCustomView.m */,
+				C1037E6521B9127A001F8BFF /* Main.storyboard */,
+				C1037E6821B9127C001F8BFF /* Assets.xcassets */,
+				C1037E6A21B9127C001F8BFF /* LaunchScreen.storyboard */,
+				C1037E6D21B9127C001F8BFF /* Info.plist */,
+				C1037E6E21B9127C001F8BFF /* main.m */,
+			);
+			path = "Tsting-SetNeedsLayout";
+			sourceTree = "<group>";
+		};
+		C1037E7721B9127C001F8BFF /* Tsting-SetNeedsLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1037E7821B9127C001F8BFF /* Tsting_SetNeedsLayoutTests.m */,
+				C1037E7A21B9127C001F8BFF /* Info.plist */,
+			);
+			path = "Tsting-SetNeedsLayoutTests";
+			sourceTree = "<group>";
+		};
+		C1037E8221B9127C001F8BFF /* Tsting-SetNeedsLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1037E8321B9127C001F8BFF /* Tsting_SetNeedsLayoutUITests.m */,
+				C1037E8521B9127C001F8BFF /* Info.plist */,
+			);
+			path = "Tsting-SetNeedsLayoutUITests";
+			sourceTree = "<group>";
+		};
+		C1037E9421B91621001F8BFF /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				C1037E9521B91621001F8BFF /* MASCompositeConstraint.h */,
+				C1037E9621B91621001F8BFF /* NSLayoutConstraint+MASDebugAdditions.m */,
+				C1037E9721B91621001F8BFF /* MASConstraint+Private.h */,
+				C1037E9821B91621001F8BFF /* MASLayoutConstraint.h */,
+				C1037E9921B91621001F8BFF /* NSArray+MASShorthandAdditions.h */,
+				C1037E9A21B91621001F8BFF /* MASConstraintMaker.h */,
+				C1037E9B21B91621001F8BFF /* View+MASAdditions.h */,
+				C1037E9C21B91621001F8BFF /* NSArray+MASAdditions.h */,
+				C1037E9D21B91621001F8BFF /* MASUtilities.h */,
+				C1037E9E21B91621001F8BFF /* MASViewAttribute.h */,
+				C1037E9F21B91621001F8BFF /* ViewController+MASAdditions.m */,
+				C1037EA021B91621001F8BFF /* MASViewConstraint.h */,
+				C1037EA121B91621001F8BFF /* MASConstraint.h */,
+				C1037EA221B91621001F8BFF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				C1037EA321B91621001F8BFF /* MASCompositeConstraint.m */,
+				C1037EA421B91621001F8BFF /* MASConstraintMaker.m */,
+				C1037EA521B91621001F8BFF /* MASLayoutConstraint.m */,
+				C1037EA621B91621001F8BFF /* NSArray+MASAdditions.m */,
+				C1037EA721B91621001F8BFF /* View+MASAdditions.m */,
+				C1037EA821B91621001F8BFF /* View+MASShorthandAdditions.h */,
+				C1037EA921B91621001F8BFF /* Masonry.h */,
+				C1037EAA21B91621001F8BFF /* MASConstraint.m */,
+				C1037EAB21B91621001F8BFF /* ViewController+MASAdditions.h */,
+				C1037EAC21B91621001F8BFF /* MASViewConstraint.m */,
+				C1037EAD21B91621001F8BFF /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		D03A583E06A5D39AB1EC501D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D14260C2C3B83ACBE79024A3 /* libPods-Tsting-SetNeedsLayout.a */,
+				9F556038CEAB1C63CDF3DC3D /* libPods-Tsting-SetNeedsLayoutTests.a */,
+				094D57D2839016E132089136 /* libPods-Tsting-SetNeedsLayoutUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1037E5B21B9127A001F8BFF /* Tsting-SetNeedsLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1037E8821B9127C001F8BFF /* Build configuration list for PBXNativeTarget "Tsting-SetNeedsLayout" */;
+			buildPhases = (
+				67523BA69AF2C89769F38FF8 /* [CP] Check Pods Manifest.lock */,
+				C1037E5821B9127A001F8BFF /* Sources */,
+				C1037E5921B9127A001F8BFF /* Frameworks */,
+				C1037E5A21B9127A001F8BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tsting-SetNeedsLayout";
+			productName = "Tsting-SetNeedsLayout";
+			productReference = C1037E5C21B9127A001F8BFF /* Tsting-SetNeedsLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1037E7321B9127C001F8BFF /* Tsting-SetNeedsLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1037E8B21B9127C001F8BFF /* Build configuration list for PBXNativeTarget "Tsting-SetNeedsLayoutTests" */;
+			buildPhases = (
+				196750E35813C72A4F7B2A1A /* [CP] Check Pods Manifest.lock */,
+				C1037E7021B9127C001F8BFF /* Sources */,
+				C1037E7121B9127C001F8BFF /* Frameworks */,
+				C1037E7221B9127C001F8BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1037E7621B9127C001F8BFF /* PBXTargetDependency */,
+			);
+			name = "Tsting-SetNeedsLayoutTests";
+			productName = "Tsting-SetNeedsLayoutTests";
+			productReference = C1037E7421B9127C001F8BFF /* Tsting-SetNeedsLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1037E7E21B9127C001F8BFF /* Tsting-SetNeedsLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1037E8E21B9127C001F8BFF /* Build configuration list for PBXNativeTarget "Tsting-SetNeedsLayoutUITests" */;
+			buildPhases = (
+				7186E59EC88DA6D9C4F74800 /* [CP] Check Pods Manifest.lock */,
+				C1037E7B21B9127C001F8BFF /* Sources */,
+				C1037E7C21B9127C001F8BFF /* Frameworks */,
+				C1037E7D21B9127C001F8BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1037E8121B9127C001F8BFF /* PBXTargetDependency */,
+			);
+			name = "Tsting-SetNeedsLayoutUITests";
+			productName = "Tsting-SetNeedsLayoutUITests";
+			productReference = C1037E7F21B9127C001F8BFF /* Tsting-SetNeedsLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1037E5421B9127A001F8BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dasui;
+				TargetAttributes = {
+					C1037E5B21B9127A001F8BFF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C1037E7321B9127C001F8BFF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1037E5B21B9127A001F8BFF;
+					};
+					C1037E7E21B9127C001F8BFF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1037E5B21B9127A001F8BFF;
+					};
+				};
+			};
+			buildConfigurationList = C1037E5721B9127A001F8BFF /* Build configuration list for PBXProject "Tsting-SetNeedsLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1037E5321B9127A001F8BFF;
+			productRefGroup = C1037E5D21B9127A001F8BFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1037E5B21B9127A001F8BFF /* Tsting-SetNeedsLayout */,
+				C1037E7321B9127C001F8BFF /* Tsting-SetNeedsLayoutTests */,
+				C1037E7E21B9127C001F8BFF /* Tsting-SetNeedsLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1037E5A21B9127A001F8BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1037E6C21B9127C001F8BFF /* LaunchScreen.storyboard in Resources */,
+				C1037E6921B9127C001F8BFF /* Assets.xcassets in Resources */,
+				C1037E6721B9127A001F8BFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1037E7221B9127C001F8BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1037E7D21B9127C001F8BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		196750E35813C72A4F7B2A1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tsting-SetNeedsLayoutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67523BA69AF2C89769F38FF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tsting-SetNeedsLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7186E59EC88DA6D9C4F74800 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tsting-SetNeedsLayoutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1037E5821B9127A001F8BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1037EB721B91621001F8BFF /* MASViewConstraint.m in Sources */,
+				C1037EB821B91621001F8BFF /* MASViewAttribute.m in Sources */,
+				C1037E9321B912AB001F8BFF /* TstingCustomView.m in Sources */,
+				C1037E6421B9127A001F8BFF /* ViewController.m in Sources */,
+				C1037EB421B91621001F8BFF /* NSArray+MASAdditions.m in Sources */,
+				C1037EB021B91621001F8BFF /* ViewController+MASAdditions.m in Sources */,
+				C1037EB121B91621001F8BFF /* MASCompositeConstraint.m in Sources */,
+				C1037E6F21B9127C001F8BFF /* main.m in Sources */,
+				C1037EB521B91621001F8BFF /* View+MASAdditions.m in Sources */,
+				C1037EB221B91621001F8BFF /* MASConstraintMaker.m in Sources */,
+				C12CC90D21BE0704005DF34D /* UIColor+MarKit.m in Sources */,
+				C1037EB621B91621001F8BFF /* MASConstraint.m in Sources */,
+				C1037EAF21B91621001F8BFF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C1037EB321B91621001F8BFF /* MASLayoutConstraint.m in Sources */,
+				C1037E6121B9127A001F8BFF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1037E7021B9127C001F8BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1037E7921B9127C001F8BFF /* Tsting_SetNeedsLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1037E7B21B9127C001F8BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1037E8421B9127C001F8BFF /* Tsting_SetNeedsLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1037E7621B9127C001F8BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1037E5B21B9127A001F8BFF /* Tsting-SetNeedsLayout */;
+			targetProxy = C1037E7521B9127C001F8BFF /* PBXContainerItemProxy */;
+		};
+		C1037E8121B9127C001F8BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1037E5B21B9127A001F8BFF /* Tsting-SetNeedsLayout */;
+			targetProxy = C1037E8021B9127C001F8BFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1037E6521B9127A001F8BFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1037E6621B9127A001F8BFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1037E6A21B9127C001F8BFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1037E6B21B9127C001F8BFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1037E8621B9127C001F8BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1037E8721B9127C001F8BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1037E8921B9127C001F8BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949D5B4C017630A06CBEF80C /* Pods-Tsting-SetNeedsLayout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-SetNeedsLayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-SetNeedsLayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1037E8A21B9127C001F8BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F12EEF2589DC907E7E001F /* Pods-Tsting-SetNeedsLayout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-SetNeedsLayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-SetNeedsLayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1037E8C21B9127C001F8BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0762208716A947FDB36DA4C /* Pods-Tsting-SetNeedsLayoutTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-SetNeedsLayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-SetNeedsLayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsting-SetNeedsLayout.app/Tsting-SetNeedsLayout";
+			};
+			name = Debug;
+		};
+		C1037E8D21B9127C001F8BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72CD5EA62B1EB4C7F3C6B789 /* Pods-Tsting-SetNeedsLayoutTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-SetNeedsLayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-SetNeedsLayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsting-SetNeedsLayout.app/Tsting-SetNeedsLayout";
+			};
+			name = Release;
+		};
+		C1037E8F21B9127C001F8BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EFD713F48444603C5E6FB8 /* Pods-Tsting-SetNeedsLayoutUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-SetNeedsLayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-SetNeedsLayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tsting-SetNeedsLayout";
+			};
+			name = Debug;
+		};
+		C1037E9021B9127C001F8BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E5613573C6BA42EB6CBF70 /* Pods-Tsting-SetNeedsLayoutUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-SetNeedsLayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-SetNeedsLayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tsting-SetNeedsLayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1037E5721B9127A001F8BFF /* Build configuration list for PBXProject "Tsting-SetNeedsLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1037E8621B9127C001F8BFF /* Debug */,
+				C1037E8721B9127C001F8BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1037E8821B9127C001F8BFF /* Build configuration list for PBXNativeTarget "Tsting-SetNeedsLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1037E8921B9127C001F8BFF /* Debug */,
+				C1037E8A21B9127C001F8BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1037E8B21B9127C001F8BFF /* Build configuration list for PBXNativeTarget "Tsting-SetNeedsLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1037E8C21B9127C001F8BFF /* Debug */,
+				C1037E8D21B9127C001F8BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1037E8E21B9127C001F8BFF /* Build configuration list for PBXNativeTarget "Tsting-SetNeedsLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1037E8F21B9127C001F8BFF /* Debug */,
+				C1037E9021B9127C001F8BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1037E5421B9127A001F8BFF /* Project object */;
+}

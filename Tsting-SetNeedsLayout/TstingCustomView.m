@@ -129,7 +129,7 @@ typedef NS_ENUM(NSInteger, MarlServiceChatingFinishConversationViewButtonsType) 
     }
 }
 
-// MARK: yes or no button
+// MARK: yes & no button
 -(void)addButtonsContainerView
 {
     //
